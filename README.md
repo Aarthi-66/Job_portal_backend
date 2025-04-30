@@ -71,18 +71,16 @@ project-root/
 | GET    | /user/getUsers   | Admin     | Get all users/applications|
 
 
-Auth Notes
+### Auth Notes
 Login returns a JWT token
 
 Use token in headers like:
 
-makefile
-Copy
-Edit
+## makefile
 Authorization: Bearer <token>
 Middleware (verifyToken) checks the token for protected routes
 
-To-Do (For Developers)
+### To-Do (For Developers)
  Add job application model & route (/apply-job)
 
  Create endpoints for admin to approve/reject applications
